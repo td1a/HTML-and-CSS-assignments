@@ -1,0 +1,160 @@
+<!--Debug instruction Required:
+1. Overlay text cluttered in one line even the height is absolutely enough.
+2. Cannot end flex for photo gallery. So if photo frames does not fill the row,
+next section (form) will be sqeezed to the right. 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>The Space Station | Resort</title>
+		<meta charset ="utf-8">
+		<link rel="stylesheet" href="./css/style2.css">
+	</head>
+
+	<body>
+		
+		<!-- nav section -->
+	<div class="wrap">
+
+		<div class="menu-container">
+			<ul class="menu-item">
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>RESERVATIONS</li></a>
+			</ul>
+		</div>
+	
+
+		<!-- end nav section -->
+		
+		<!-- HOME -->
+	<div class="section" id="home">
+		<div class="container">
+			<h1>Home</h1>
+			<span class="whitehead">The Space Station is a website about space travel.</span>
+		</div>
+	</div>
+
+		<!-- END HOME -->
+
+		
+		<!-- GALLERY -->
+		<!-- 3-element thumbnails, testing 5 effect -->
+		<!-- didn't find a way to end flex. so if last row not filling,
+		form will appear in wrong position-->
+		<!-- unfixed overlay text cluttered-->
+	<div id="gallery">
+		<h1>Gallery</h1>
+		<div class="section" >
+			<div class="photo-container">
+				<div class="photo">
+					<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+					<div class="photo-overlay">
+						<h3 class="whitehead">Click to Enlarge</h3>
+						<span>We have several space</span>
+					</div>
+				</div>
+			</div>
+					<!-- END PHOTO CONTAINER -->
+
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+						<div class="photo-overlay">
+							<h3 class="whitehead">Click to Enlarge</h3>
+							<p>We have several space launches daily</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+						<div class="photo-overlay">
+							<h3 class="whitehead">Click to Enlarge</h3>
+							<p>We have several space launches daily</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+						<div class="photo-overlay">
+							<h3 class="whitehead">Click to Enlarge</h3>
+							<p>We have several space launches daily</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+						<div class="photo-overlay">
+							<h3 class="whitehead">Click to Enlarge</h3>
+							<p>We have several space launches daily</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="photo-container">
+					<div class="photo">
+						<img src="./images/thumb/thumbnail_1.jpeg" alt="not ready yet">
+						<div class="photo-overlay">
+							<h3 class="whitehead">Click to Enlarge</h3>
+							<p>We have several space launches daily</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			
+	
+		<!-- END GALLERY -->
+
+		<!-- RSVP FORM -->
+	<section id="contact">
+		<div class="container">
+			<h1>Reservations</h1>
+			<div class="reservation">
+				<h2><span>Your adventure is just around the clock.</span>
+				<br/>Reserve your flight today!</h2>
+				<p class="rsvp-text">
+					Please provide us with basic contact information.
+				</p>
+				<div class="form-rsvp">
+					<form action="" method="post">
+						<input class="rsvp" type="text" value="First Name">
+						<input class="rsvp" type="text" value="Last Name">
+						<input class="rsvp" type="text" value="Email Address">
+						<input class="rsvp" type="text" value="Phone Number">
+						<div class="form-spacer"></div>
+						<div class="submit">
+							<label class="terms">Terms and Conditions</label>
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+					</div>
+				</div>
+		</div>
+	</section>	
+	
+		
+		<!-- END RSVP FORM -->
+	
+		<!-- footer -->
+		<div>
+			<footer>
+		www.space.com &nbsp;|&nbsp; &copy; 2024
+			</footer>
+		</div>
+		<!-- end footer -->
+	</div>
+</body>
+
+</html>
